@@ -1,4 +1,4 @@
-# 💉Análise de Casos de COVID-19 (DATASUS) 2025
+# 🦠 Análise de Casos de COVID-19 (DATASUS) 2025
 
 Este repositório documenta a minha análise sobre o dataset de casos de COVID19, disponibilizados pelo DATASUS.
 <br/>
