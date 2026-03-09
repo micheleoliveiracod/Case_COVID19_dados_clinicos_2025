@@ -79,7 +79,7 @@ Em quantos casos fizeram raio-x e tomografia em relação ao total?
 
 ## 📃 Instruções de uso
 
-*Este projeto tem objetivos acadêmicos.*
+*Este projeto tem objetivos acadêmicos, exclusivamente.*
 
 ✅ Permitido: Observar o trabalho e usar como referêcia para replicar o método.
 
