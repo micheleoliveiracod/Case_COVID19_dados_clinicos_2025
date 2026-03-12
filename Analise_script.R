@@ -22,7 +22,7 @@ library(data.table)
 INFLUD25_15_12_2025 <- read_csv2("INFLUD25-15-12-2025.csv")
 View(INFLUD25_15_12_2025)
 
-# Os 3 passos feitos estão explicados no arquivo (ETL_db_comorbidades).
+# Os 3 passos feitos estão explicados no arquivo (ETL_dos_dados).
 
 #script do ETL:
 
@@ -35,7 +35,7 @@ dados_brutos <- read_csv2("INFLUD25-15-12-2025.csv",
 cat("Dimensões do dataset original:", nrow(dados_brutos), "linhas x", 
     ncol(dados_brutos), "colunas\n")
 
-# DEFINIÇÃO DAS COLUNAS A MANTER
+# DEFINIÇÃO DAS COLUNAS QUE IREI USAR NAS ANALISES
 colunas_analise <- c(
   "NU_NOTIFIC",
   "DT_NOTIFIC",
@@ -84,7 +84,7 @@ select(all_of(colunas_existentes))
 # Salvei em CSV
 write_csv(dados_transformados, "dados_covid_2025_transformados.csv")
 
-# A ultima etapa de transformação dos dados será feita no EXCEL, e esta explicada no arquivo (ETL_db_comorbidades).
+# A ultima etapa de transformação dos dados será feita no EXCEL, e esta explicada no arquivo (ETL_dos_dados).
 
 
 # INICIO DAS ANALISES
