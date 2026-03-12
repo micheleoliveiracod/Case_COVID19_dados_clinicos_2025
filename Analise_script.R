@@ -1,4 +1,4 @@
-# No meu repositório (Estudo_linguagem_R) eu descrevo como instalar os pacotes basicos e preparar o ambiente para fazer analises.
+#INICIO
 
 # Carreguei pacotes essenciais
 
